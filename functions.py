@@ -1,3 +1,8 @@
+# File name: functions.py
+# Author: Lauri Kodisoja
+# Description: A file that has all the functions used by the program.
+
+
 from list import my_list
 
 """Defines a function to search for an element and its index in the list"""

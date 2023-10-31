@@ -1,3 +1,8 @@
+# File name: displaymenu.py
+# Author: Lauri Kodisoja
+# Description: A function that acts as a main menu for the program.
+
+
 """Defines a function to display the menu and get user input"""
 def display_menu():
 

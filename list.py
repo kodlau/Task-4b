@@ -1,3 +1,8 @@
+# File name: list.py
+# Author: Lauri Kodisoja
+# Description: A file that contains the list that the program uses.
+
+
 my_list = [1, 2.2, "Manu Chao", 4, "Clandestino", 
            "Radio Bemba", 7, "Machine Gun", 9.9, 10, 
            "Rainin' In Paradize", 12, 13, "Mr Bobby", 15, 

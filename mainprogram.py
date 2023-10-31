@@ -1,3 +1,8 @@
+# File name: mainprogram.py
+# Author: Lauri Kodisoja
+# Description: A file that runs the whole program.
+
+
 from displaymenu import display_menu
 from functions import search_element, add_element, remove_element, sort_list, list_elements, count_elements
 
