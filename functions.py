@@ -1,14 +1,9 @@
-# File name: Task 4B.py
+# File name: functions.py
 # Author: Lauri Kodisoja
-# Description: A program that demonstrates the use of functions on a list.
+# Description: A file that has all the functions used by the program.
 
-"""Defines a list with 30 elements"""
-my_list = [1, 2.2, "Manu Chao", 4, "Clandestino", 
-           "Radio Bemba", 7, "Machine Gun", 9.9, 10, 
-           "Rainin' In Paradize", 12, 13, "Mr Bobby", 15, 
-           "Me Gustas Tu", 17.7, 18, 19.9, 20.0, 
-           21.1, 22, 23, 24.5, "Desaparecido",
-           26, 27.0, "La Primavera", 29.9, 30]
+
+from list import my_list
 
 """Defines a function to search for an element and its index in the list"""
 def search_element():
@@ -71,58 +66,3 @@ def count_elements():
     count = len(my_list)
     print("\n" + "Number of elements in the list:", count)
     print()
-
-"""Defines a function to display the menu and get user input"""
-def display_menu():
-
-    print("Press number to select:" + "\n" )
-    print("1. Stop")
-    print("2. Search")
-    print("3. Add")
-    print("4. Remove")
-    print("5. Sort")
-    print("6. List all the elements")
-    print("7. Count how many elements there are in the list")
-
-    while True:
-        try:
-            choice = int(input("\n" + "Enter your choice: "))
-            print()
-            return choice
-        except ValueError:
-            print("\n" + "Invalid choice, please enter a number." + "\n")
-
-"""Defines the main function to run the program"""
-def main():
-
-    choice = display_menu()
-    
-    while choice != 1:
-        
-        if choice == 2:
-            search_element()
-        
-        elif choice == 3:
-            add_element()
-        
-        elif choice == 4:
-            remove_element()
-        
-        elif choice == 5:
-            sort_list()
-        
-        elif choice == 6:
-            list_elements()
-        
-        elif choice == 7:
-            count_elements()
-        
-        else:
-            print("Invalid choice")
-        
-        choice = display_menu()
-
-    print("Shutting down the program")
-
-"""Call the main function to run the program"""
-main()
