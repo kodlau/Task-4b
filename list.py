@@ -2,7 +2,7 @@
 # Author: Lauri Kodisoja
 # Description: A file that contains the list that the program uses.
 
-
+"""A list that contains strings, integers and floats and is used by the program."""""
 my_list = [1, 2.2, "Manu Chao", 4, "Clandestino", 
            "Radio Bemba", 7, "Machine Gun", 9.9, 10, 
            "Rainin' In Paradize", 12, 13, "Mr Bobby", 15, 
